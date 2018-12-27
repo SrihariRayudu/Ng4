@@ -1,0 +1,46 @@
+<mat-toolbar class="app-toolbar no-print mat-toolbar mat-primary mat-toolbar-multiple-rows" color="primary">
+  <!---->
+  <aio-top-menu class="ng-star-inserted">
+    <a class="nav-link home" href="/" [routerLinkActive]="['active']" [routerLink]="['./home']">
+      <!---->
+      <img alt="Home" height="40" src="../assets/logo-nav@2x.png" style="    border-left-width: 0px;    margin-left: 46px;"
+        title="Home" width="150" class="ng-star-inserted">
+      <!---->
+    </a>
+
+    <ul role="navigation">
+      <!---->
+      <li class="ng-star-inserted">
+        <a class="nav-link" [routerLinkActive]="['active']" [routerLink]="['./features']" title="Features">Features</a>
+      </li>
+      <!--
+  <li class="ng-star-inserted">
+  <a class="nav-link" [routerLinkActive]="['active']"  [routerLink]="['./docs']"  title="Docs">Docs</a>
+  </li>
+  -->
+      <li class="ng-star-inserted">
+        <a class="nav-link" [routerLinkActive]="['active']" [routerLink]="['./resources']" title="Resources">Resources</a>
+      </li>
+      <li class="ng-star-inserted">
+        <a class="nav-link" [routerLinkActive]="['active']" [routerLink]="['./events']" title="Events">Events</a>
+      </li>
+      <li class="ng-star-inserted">
+        <a class="nav-link" href="https://blog.angular.io/" title="Blog">Blog</a>
+      </li>
+    </ul>
+    <aio-search-box class="search-container" style="margin-right: -275px;">
+      <input aria-label="search" placeholder="Search" type="search">
+    </aio-search-box>
+    <div class="toolbar-external-icons-container">
+      <a href="https://twitter.com/angular" title="Twitter">
+        <img src="../assets/twitter-icon.svg">
+      </a>
+      <a href="https://github.com/angular/angular" title="GitHub">
+        <img src="../assets/github-icon.svg">
+      </a>
+    </div>
+  </aio-top-menu>
+</mat-toolbar>
+<router-outlet></router-outlet>
+
+<div class="footer"></div>

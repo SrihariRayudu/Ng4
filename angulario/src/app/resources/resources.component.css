@@ -1,0 +1,18 @@
+.e:hover{
+    height: 100%;
+    width: 90%;
+    border: 1px solid #1976d2;
+    border-radius: 5px;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+    transition: all 200ms ease-out;
+    font-size: 17px;
+    margin-left: 30px;
+    padding-left: 5px;
+ }
+
+ .e{
+    height: 100%; 
+    width: 90%;
+    margin-left: 30px;
+    padding-left: 5px;
+ }
