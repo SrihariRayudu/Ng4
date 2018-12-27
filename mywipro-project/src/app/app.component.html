@@ -1,0 +1,286 @@
+<html>
+<head>
+</head>
+<body>
+  <!--Section: Blog v.2-->
+  <section class="text-center py-4">
+    <div class="row">
+      <div class="col-2">
+        <img src="../assets/wiprologo.jpg" class="" alt="First sample image" style=" cursor: pointer;  width: 85px; float: left;">
+      </div>
+      <div class="col-3">
+        <div class="pull-left test logo_text rounded-circle">myWipro </div>
+      </div>
+      <div class="col-5" style="  cursor: pointer;  margin-left: -245px;">
+        <li (click)="toggle()" *ngIf="search_icon" class="fas fa-search">
+          <span style="    margin-left: 5px;">Find an app here </span>
+        </li>
+      </div>
+      <div class="col-1" style=" cursor: pointer; margin-left: 270px;">
+        <img src="../assets/download2.png" class="rounded-circle" alt="Cinque Terre" width="40" height="40"> </div>
+      <div class="col-1" style=" margin-top: 12px; margin-left: -48px;">
+        <div class="fa fa-gear " style="font-size:22px;cursor: pointer;"></div>
+        <div class="fa fa-cube" aria-hidden="true" style="padding-left: 12px;cursor: pointer;
+          padding-right: 14px;"></div>
+        <div class="fa fa-sign-out" style="cursor: pointer;" aria-hidden="true"></div>
+      </div>
+    </div>
+    <div class="form-group row" *ngIf="show">
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="inputEmail3" placeholder="Find an app here" style="margin-left: 43px;">
+      </div>
+      <div (click)="toggle()">
+        <i class="fas fa-times" style="font-size: 34px;margin-left: 36px;"></i>
+      </div>
+    </div>
+    <!--Grid row-->
+    <div class="row">
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-12 mb-4">
+        <!--Featured image-->
+        <div class="favapps ">
+          <p class="no_pad" style="padding-top: 15px;font-size: 16px;">
+            <b>Favourite Apps</b>
+          </p>
+          <div class="row" style="margin-left: 32px;margin-top: 24px;">
+            <div class="fa-stack fa-2x" aria-hidden="true">
+              <i class="fa fa-plane fa-stack-1x fa-inverse"></i>
+            </div>
+            <div class="fa-stack fa-2x" aria-hidden="true" style="margin-left: 10px;">
+              <i class="fa fa-file-text-o fa-stack-1x fa-inverse"></i>
+            </div>
+            <div class="fa-stack fa-2x" aria-hidden="true" style="margin-left: 10px;">
+              <i class="fa fa-taxi fa-stack-1x fa-inverse"></i>
+            </div>
+          </div>
+          <div class="row" style="margin-left: 32px;margin-top: 24px;">
+            <div style="font-size: 14px;">
+              MyTravel
+            </div>
+            <div style="margin-left: 25px;font-size: 14px;">
+              MyData
+            </div>
+            <div style="margin-left: 18px;font-size: 14px;">
+              MyTransport
+            </div>
+          </div>
+
+          <div class="row" style="margin-left: 32px;margin-top: 24px;">
+            <div class="fa-stack fa-2x" aria-hidden="true">
+              <i class="fa fa-bullhorn fa-stack-1x fa-inverse"></i>
+            </div>
+            <div class="fa-stack fa-2x" aria-hidden="true" style="margin-left: 10px;">
+              <i class="fa fa-plus-circle fa-stack-1x fa-inverse"></i>
+            </div>
+            <div class="fa-stack fa-2x" aria-hidden="true" style="margin-left: 10px;">
+              <i class="fa fa-plus-circle fa-stack-1x fa-inverse"></i>
+            </div>
+          </div>
+          <div class="row" style="margin-left: 32px;margin-top: 24px; ">
+            <div style="font-size: 14px;">
+              MyVoice
+            </div>
+            <div style="margin-left: 40px;font-size: 14px;">
+              Add
+            </div>
+            <div style="margin-left: 52px;font-size: 14px;">
+              Add
+            </div>
+          </div>
+        </div>
+        <div class="actions">
+          <p class="no_pad" style="padding-top: 15px;font-size: 16px;">
+            <b>Quick Actions</b>
+          </p>
+          <p class="no_pad" style="font-size: 14px;">Do you have a great story on MS Teams?</p>
+          <p class="no_pad" style="font-size: 14px;">Celebrate success with MS Teams. Get your thoughts together! Watch this space for more</p>
+          <p class="no_pad" style="font-size: 14px;">#successwithteams</p>
+        </div>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-6 mb-4">
+        <!--Featured image-->
+        <div class="view overlay rounded z-depth-2 mb-2 waves-light" mdbWavesEffect style="width: 806px;">
+
+
+          <!--Carousel Wrapper-->
+          <mdb-carousel [isControls]="true" class="carousel slide carousel-fade" [animation]="'fade'">
+            <!--First slide-->
+            <mdb-carousel-item>
+              <div class="view w-100">
+                <img class="d-block w-100" src="../assets/download (1).png" alt="First slide">
+                <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+              </div>
+              <div (click)="togglenotify1()" class="carousel-caption" style="cursor: pointer;background-color: #21658d;width: 100px;
+                  border-radius: 7px; margin-right: 453px;padding-top: 5px;padding-bottom: 0px;">
+
+                <p>Click Here</p>
+              </div>
+              <div *ngIf="shownotify1" class="carousel-caption" style="background-color: #815151;
+              border-radius: 10px;
+              width: 329px;
+              margin-left: 300px;">
+                <h3 style="color: #fff;font-size: 20px;" class="h3-responsive">Dates to Remainder</h3>
+                <div style="color: #fff;font-size: 16px;">Nomination Stage : Jan 01- jan 10</div>
+                <div style="color: #fff;font-size: 16px;">Approval Stage : Jan 11- jan 20</div>
+                <div style="color: #fff;font-size: 16px;">Feed back Stage : Jan 21- jan 30</div>
+              </div>
+
+            </mdb-carousel-item>
+            <!--/First slide-->
+            <!--Second slide-->
+            <mdb-carousel-item>
+              <div class="view w-100">
+                <img class="d-block w-100" src="../assets/download.png" alt="Second slide">
+                <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div>
+              </div>
+              <div (click)="togglenotify2()" class="carousel-caption" style="cursor: pointer;background-color: #21658d;width: 100px;
+              border-radius: 7px; margin-right: 453px;padding-top: 5px;padding-bottom: 0px;">
+
+                <p>Click Here</p>
+              </div>
+              <div *ngIf="shownotify2" class="carousel-caption" style="background-color: #815151;
+          border-radius: 10px;
+          width: 329px;
+          margin-left: 300px;">
+                <h3 style="color: #fff;font-size: 20px;" class="h3-responsive">Dates to Remainder</h3>
+                <div style="color: #fff;font-size: 16px;">Nomination Stage : Jan 01- jan 10</div>
+                <div style="color: #fff;font-size: 16px;">Approval Stage : Jan 11- jan 20</div>
+                <div style="color: #fff;font-size: 16px;">Feed back Stage : Jan 21- jan 30</div>
+              </div>
+            </mdb-carousel-item>
+            <!--/Second slide-->
+            <!--Third slide-->
+
+            <!--/Third slide-->
+          </mdb-carousel>
+          <!--/.Carousel Wrapper-->
+        </div>
+
+
+
+
+        <div class="row">
+          <div class="col-4">
+            <div class="billability">
+              <p class="no_pad" style="color: #fff;padding-top: 15px;font-size: 16px;">
+                <b>Billability</b>
+              </p>
+
+
+
+              <div style="color: #fff;font-size: 14px; margin-top: 51px;">18 Apr 2018 - 16 Jul 2018</div>
+              <div style="color: #fff;font-size: 14px;">JFA-MS-PI-CCV</div>
+              <div style="color: #fff;font-size: 14px;">Billable</div>
+              <div style="color: #fff;font-size: 14px;">17 Jul 2018 - 04 Jan 2019</div>
+              <div style="color: #fff;font-size: 14px;">JAP-CCV-CJ-CCV-DEVSUP1</div>
+              <div style="color: #fff;font-size: 14px;">Billable</div>
+            </div>
+
+
+          </div>
+          <div class="col-8">
+
+            <div class="marketplace ">
+              <p class="no_pad" style="color: #1295aa;padding-top: 15px;font-size: 16px;">
+                <b>Imarketscape</b>
+              </p>
+              <div style="color: #201893;font-size: 14px;">Would you like to consider yourself</div>
+              <div style="color: #201893;font-size: 14px;">These are some hot trending skills</div>
+
+              <div class="row" style="margin-top: 50px; margin-left: 21px;">
+                <div class="col">
+                  <p style="background: #507889;" class=" imark-btn">Spring</p>
+                </div>
+                <div class="col">
+                  <p style="background: #bfc9cd;" class=" imark-btn">SpringJpa</p>
+                </div>
+                <div class="col">
+                  <p style="background: #424c4f;" class=" imark-btn">Hibernate</p>
+                </div>
+                <div class="col">
+                  <p style="background: #455383;" class=" imark-btn">Angular2</p>
+                </div>
+                <div class="col">
+                  <p style="background: #7ab8a1;" class=" imark-btn">React</p>
+                </div>
+                <div class="col">
+                  <p style="background: #4399bc;width: 80px;" class=" imark-btn">SpringBoot</p>
+                </div>
+                <div class="col">
+                  <p style="background: #767f83;" class=" imark-btn">Jsp</p>
+                </div>
+                <div class="col">
+                  <p style="background: #cdccf9;" class=" imark-btn">Oraacle</p>
+                </div>
+                <div class="col">
+                  <p style="background: #6b816a;" class=" imark-btn">Angularjs</p>
+                </div>
+                <div class="col">
+                  <p style="background: #ccecf9;" class=" imark-btn">Java</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="group ">
+          <p class="no_pad" style="color: #fff;padding-top: 15px;font-size: 16px;">
+            <b>Group announcements</b>
+          </p>
+          <p class="no_pad" style="color: #fff;font-size: 14px;">Do you have a great story on MS Teams?</p>
+          <p class="no_pad" style="color: #fff;font-size: 14px;">Celebrate success with MS Teams. Get your thoughts together! Watch this space for more</p>
+          <p class="no_pad" style="color: #fff;font-size: 14px;">#successwithteams</p>
+        </div>
+        <div class="taskss">
+          <p style="color: #fff;padding-top: 15px;font-size: 16px;">
+            <b>
+              <i class='fas fa-edit'></i> Tasks</b>
+          </p>
+          <p class="pull-left cap" style="color: #fff;font-size: 14px;margin-left: 12px;">Pending tasks</p>
+
+          <p class=" pull-left line-btn">View</p>
+        </div>
+        <div class="statuss">
+          <p style="color: #fff;padding-top: 15px;font-size: 16px;">
+            <b>
+              <i class='fas fa-edit'></i> Status</b>
+          </p>
+          <p class="pull-left cap" style="color: #fff;font-size: 14px;margin-left: 12px;">current status</p>
+
+          <p class=" pull-left line-btn">View</p>
+        </div>
+        <div class="radio">
+
+          <img src="../assets/radio.png">
+          <p class="top-left cap" style="color: #fff;font-size: 16px;">
+            <b> Wipro on Air</b>
+
+
+          </p>
+
+          <input class="song-slider top-left-view " id="songSlider" min="0" step="1" type="range" max="8591">
+          <p class="top-left-view line-btn-view" style="color: #fff;font-size: 14px;margin-left: -30px;">VIEW ARCHIVES</p>
+        </div>
+      </div>
+      <!--Grid column-->
+
+
+    </div>
+
+
+  </section>
+</body>
+
+</html>

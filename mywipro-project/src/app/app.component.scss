@@ -1,0 +1,235 @@
+.favapps{
+    background: #f1f2f6;
+    width: 269px;
+    border-radius: 3px;
+    margin-left: 95px;
+    height: 333px;
+     
+}
+.actions{
+    background: #f1f2f6;
+    width: 269px;
+    border-radius: 3px;
+    margin-left: 95px;
+    height: 425px;
+    margin-top: 10px;
+     
+}
+
+.group {
+    height: 250px;
+    background: #0e3570;
+    width: 269px;
+    border-radius: 3px;
+    margin-left: 64px;
+    margin-bottom: 10px;
+}
+
+.taskss {
+    height: 160px;
+    background: #6cc14a;
+    width: 269px;
+    border-radius: 3px;
+    margin-left: 64px;
+    margin-bottom: 10px;
+}
+
+.tasksview {
+    border-radius: 3px;
+    padding: 20px; 
+    width: 10px;
+    height: 10px;  
+    border: 1px solid #ccc!important;  
+}
+.line-btn {
+    background: 0 0;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.61);
+    width: 65px;
+    outline: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 43px -84px;
+    font-weight: 400;
+    font-size: 11px !important;
+    line-height: 8px;
+    border-radius: 15px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.mxht102 {
+    max-height: 61px;
+}
+.no_pad {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+.body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.42857143;
+}
+
+.cap{
+    text-transform: capitalize; 
+}
+
+.statuss {
+    height: 160px;
+    background: #d69600;
+    width: 269px;
+    border-radius: 3px;
+    margin-left: 64px;
+    margin-bottom: 10px;
+}
+
+.radio{
+    height: 160px;
+    width: 301px;
+    border-radius: 3px;
+    margin-left: 15px;
+}
+.top-left {
+    position: absolute;
+    top: 615px;
+    left: 126px;
+}
+.top-left-view{
+    position: absolute;
+    top: 672px;
+    left: 112px;  
+}
+.line-btn-view {
+    background: 0 0;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.61);
+    width: 111px;
+    outline: 0;
+    padding: 10px;
+   
+    text-align: center;
+    margin: 43px -84px;
+    font-weight: 400;
+    font-size: 11px !important;
+    line-height: 8px;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+
+.song-slider {
+    border-radius: 10px;
+    color: red;
+    -webkit-appearance: none;
+    background-color: #514f48;
+    height: 6px;
+    width: 28%;
+    margin: 0 !important;
+    display: block;
+}
+
+
+/*
+.icon{
+    text-align:center; margin-top:5em
+}*/
+
+.fa.fa-home, .fa-frown-o, .fa-futbol-o, .fa-heart-o{
+	border-radius: 50%;
+	background:#b4b4b4;
+}
+
+.fa-frown-o:hover{
+	background: #EA6212;
+}
+.fa-futbol-o:hover{
+	background: #EA6212;
+}
+.fa-heart-o:hover{
+	background: #EA6212;
+}
+.fa.fa-home:hover{
+	background: #EA6212;
+}
+
+.fa-plane, .fa-file-text-o, .fa-taxi, .fa-bullhorn, .fa-plus-circle{
+	border-radius: 50%;
+	background:#b4b4b4;
+}
+
+.fa-plane:hover{
+    background: #EA6212;
+    transform: scale(1.1);
+}
+.fa-file-text-o:hover{
+    background: #EA6212;
+    transform: scale(1.1);
+}
+.fa-taxi:hover{
+    background: #EA6212;
+    transform: scale(1.1);
+}
+.fa-bullhorn:hover{
+    background: #EA6212;
+    transform: scale(1.1);
+}
+.fa-plus-circle:hover{
+    background: #EA6212;
+    transform: scale(1.1);
+    
+}
+
+
+.hoverWrapper:hover #hoverShow1 {
+    display: block;
+   }
+   
+   .hoverWrapper #hoverShow1 {
+    display: none;
+    position: absolute;
+    background-color: #ff0000;
+    width: 250px;
+    height: 250px;
+    left: 200px;
+    top: 100px;
+   }
+
+   .billability{
+    
+    height: 393px;
+    background: #0e3570;
+    width: 269px;
+    border-radius: 3px;
+    margin-left: 2px;
+    margin-bottom: 10px;
+
+   }
+
+   .marketplace{
+    height: 393px;
+    background: #0e287045;
+    width: 523px;
+    border-radius: 3px;
+    margin-left: 42px;
+    margin-bottom: 10px;
+
+   }
+
+
+   .imark-btn {
+    background: 0 0;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.61);
+    width: 65px;
+    outline: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    //margin: 43px -84px;
+    font-weight: 400;
+    font-size: 11px !important;
+    line-height: 8px;
+    border-radius: 15px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
